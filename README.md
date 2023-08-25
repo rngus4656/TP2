@@ -3,6 +3,7 @@
 참고한 모델
 
 GNN : https://github.com/SeongBeomLEE/RecsysTutorial/blob/main/LightGCN/LightGCN.ipynb
+
 SASRec : https://github.com/pmixer/SASRec.pytorch.git
 
 # GNN
