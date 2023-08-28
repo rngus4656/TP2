@@ -10,7 +10,7 @@ def str2bool(s):
     if s not in {'false', 'true'}:
         raise ValueError('Not a valid boolean string')
     return s == 'true'
-# python main.py --dataset=ratings_enc_ts --train_dir=default --maxlen=200 --dropout_rate=0.5 --device=cuda --lr 0.001 --num_epochs 200
+# python main.py --dataset=ratings_enc_ts --train_dir=default --maxlen=50 --dropout_rate=0.2 --device=cuda --lr 0.001 --num_epochs 200
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', required=True)
 parser.add_argument('--train_dir', required=True)
